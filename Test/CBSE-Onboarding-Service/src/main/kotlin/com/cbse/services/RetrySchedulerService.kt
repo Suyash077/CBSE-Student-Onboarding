@@ -1,7 +1,7 @@
 package com.cbse.services
 
 import com.student.dto.RetryTriggerEvent
-import com.student.entities.RetryStatus
+import com.cbse.entities.RetryStatus
 import com.cbse.repositories.RetryRepository
 import com.cbse.services.kafka.RetryKafkaProducer
 import org.springframework.scheduling.annotation.Scheduled
