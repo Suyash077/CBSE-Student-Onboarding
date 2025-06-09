@@ -1,7 +1,7 @@
 package com.cbse.services.kafka
 
 import  com.student.dto.RetryTriggerEvent
-import com.student.entities.RetryStatus
+import com.cbse.entities.RetryStatus
 import com.cbse.repositories.RetryConfigRepository
 import com.cbse.repositories.RetryRepository
 import org.springframework.kafka.annotation.KafkaListener
