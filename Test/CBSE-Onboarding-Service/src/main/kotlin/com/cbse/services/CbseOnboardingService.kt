@@ -1,7 +1,7 @@
 package com.cbse.services
 
 import com.student.dto.StudentAddedEvent
-import com.student.entities.RetryStatus
+import com.cbse.entities.RetryStatus
 import com.cbse.exceptions.StudentAlreadyEnrolledException
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Mono
